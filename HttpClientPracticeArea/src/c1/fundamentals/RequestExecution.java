@@ -32,6 +32,7 @@ public class RequestExecution
 		{
 			HttpEntity entity = response.getEntity();
 			String resp = EntityUtils.toString(entity);
+			System.out.println("Response - ");
 			System.out.println(resp);
 		} 
 		finally 
